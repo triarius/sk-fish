@@ -1,5 +1,5 @@
-function __fzf_complete_preview -d 'generate preview for completion widget.
-    argv[1] is the currently selected candidate in fzf
+function __sk_complete_preview -d 'generate preview for completion widget.
+    argv[1] is the currently selected candidate in sk
     argv[2] is a string containing the rest of the output produced by `complete -Ccmd`
     '
 
@@ -15,12 +15,12 @@ function __fzf_complete_preview -d 'generate preview for completion widget.
 
     # list directories on preview
     if test -d "$path"
-        eval $FZF_PREVIEW_DIR_CMD (string escape $path)
+        eval $SKIM_PREVIEW_DIR_CMD (string escape $path)
     end
 
     # show ten lines of non-binary files preview
     if test -f "$path"; and grep -qI . "$path"
-        eval $FZF_PREVIEW_FILE_CMD (string escape $path)
+        eval $SKIM_PREVIEW_FILE_CMD (string escape $path)
     end
 
     # if fish knows about it, let it show info

@@ -1,4 +1,4 @@
-function __fzf_get_dir -d 'Find the longest existing filepath from input string'
+function __sk_get_dir -d 'Find the longest existing filepath from input string'
     set dir $argv
 
     # Strip all trailing slashes. Ignore if $dir is root dir (/)
