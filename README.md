@@ -35,7 +35,7 @@ omf install https://github.com/triarius/sk-fish
 # Requirements
 
 - [fish](https://github.com/fish-shell/fish-shell) `>=2.4.0`
-- [sk](https://github.com/lotabout/skim) `>0.11.3`
+- [sk](https://github.com/lotabout/skim) `>=0.6.0`
 
 # About the sk binary
 
@@ -94,9 +94,9 @@ documented.
 | `SKIM_ENABLE_OPEN_PREVIEW`   | Enable preview window open command.                           | `set -U SKIM_ENABLE_OPEN_PREVIEW 1`                    |
 
 # Sk-Fish Tab Completions
-This package ships with a `sk` widget for fancy tab completions.
-Please see [the wiki
-page](https://github.com/jethrokuan/sk/wiki/SKIM-Tab-Completions) for details.
+TODO: fix for sk
+This package ships with a `fzf` widget for fancy tab completions.
+Please see [the wiki page](https://github.com/jethrokuan/fzf/wiki/SKIM-Tab-Completions) for details.
 
 ##
 [tmux]: https://tmux.github.io/
