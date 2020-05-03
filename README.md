@@ -1,6 +1,20 @@
 Sk-Fish
 ===
 
+<!-- vim-markdown-toc GFM -->
+
+* [Installation](#installation)
+* [Requirements](#requirements)
+* [About the sk binary](#about-the-sk-binary)
+* [Usage](#usage)
+* [Commands](#commands)
+* [Variables](#variables)
+* [Sk-Fish Tab Completions](#sk-fish-tab-completions)
+* [References](#references)
+* [License](#license)
+
+<!-- vim-markdown-toc -->
+
 Integrate [skim](https://github.com/lotabout/skim) functionality into [fish](https://github.com/fish-shell/fish-shell)!
 Includes handy functions to do the following using `sk`.
 
@@ -98,7 +112,7 @@ TODO: fix for sk
 This package ships with a `fzf` widget for fancy tab completions.
 Please see [the wiki page](https://github.com/jethrokuan/fzf/wiki/SKIM-Tab-Completions) for details.
 
-##
+# References
 [tmux]: https://tmux.github.io/
 [fisher]: https://github.com/jorgebucaran/fisher
 [oh-my-fish]: https://github.com/oh-my-fish/oh-my-fish
